@@ -294,6 +294,27 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-list-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--subtle-text-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-logo {
+  display: block;
+  width: 104px;
+  height: 56px;
+}
+
 .footer {
   background-color: var(--dark-color);
   color: var(--light-color);
