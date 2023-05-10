@@ -184,6 +184,32 @@ img {
   width: 264px;
 }
 
+.list-directions-item::before {
+  display: block;
+  content: "";
+  height: 112px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--light-color);
+}
+
+.icon-antenna::before {
+  background-image: url("../images/icon.svg#icon-antenna");
+}
+
+.icon-clock::before {
+  background-image: url("../images/icon.svg#icon-clock");
+}
+
+.icon-diagram::before {
+  background-image: url("../images/icon.svg#icon-diagram");
+}
+
+.icon-astronaut::before {
+  background-image: url("../images/icon.svg#icon-astronaut");
+}
+
 .title-direction {
   font-weight: 500;
   font-size: var(--title-font-size);
@@ -191,6 +217,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .content-direction {
