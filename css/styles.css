@@ -242,6 +242,28 @@ img {
   background-color: var(--light-color);
 }
 
+.social-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--primary-brand-color);
+}
+
+.social-list-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
