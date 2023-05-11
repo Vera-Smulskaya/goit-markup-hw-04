@@ -379,6 +379,11 @@ img {
   gap: 16px;
 }
 
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: var(--success-color);
+}
+
 .logo-color-footer {
   color: var(--light-color);
 }
