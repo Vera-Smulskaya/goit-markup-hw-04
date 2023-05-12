@@ -356,11 +356,6 @@ img {
   fill: currentColor;
 }
 
-/* .customers-logo:hover,
-.customers-logo:focus {
-  fill: var(--pressed-state-color);
-} */
-
 .footer {
   background-color: var(--dark-color);
   color: var(--light-color);
