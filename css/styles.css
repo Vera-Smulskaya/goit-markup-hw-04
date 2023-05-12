@@ -187,6 +187,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .order-service-btn:hover,
@@ -207,7 +208,6 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   border-radius: 4px;
-  margin-bottom: 8px;
 }
 
 .list-directions-item {
@@ -347,10 +347,19 @@ img {
   border-color: var(--pressed-state-color);
 }
 
+.customers-link:hover .customers-logo,
+.customers-link:focus .customers-logo {
+  fill: var(--pressed-state-color);
+}
+
 .customers-logo {
-  display: block;
   fill: currentColor;
 }
+
+/* .customers-logo:hover,
+.customers-logo:focus {
+  fill: var(--pressed-state-color);
+} */
 
 .footer {
   background-color: var(--dark-color);
@@ -377,6 +386,7 @@ img {
 
 .social-list-footer {
   gap: 16px;
+  margin-top: 0;
 }
 
 .social-list-link-footer:hover,
