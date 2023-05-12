@@ -208,6 +208,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .list-directions-item {
@@ -221,7 +222,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 .content-direction {
